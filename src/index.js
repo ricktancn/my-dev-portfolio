@@ -31,7 +31,11 @@ function App() {
 
 function Avatar() {
   return (
-    <img className="avatar" src="/avatar/ricky_avatar.png" alt="Ricky Tan" />
+    <img
+      className="avatar"
+      src={`${process.env.PUBLIC_URL}/avatar/ricky_avatar.png`}
+      alt="Ricky Tan"
+    />
   );
 }
 
